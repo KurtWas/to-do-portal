@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../src/app/shared/styling/app.list";
+@import "../src/app/shared/styling/app.form";
+@import "../src/app/shared/styling/app.checkbox-toggle";
+@import "../src/app/shared/styling/app.buttons";
+@import "../src/app/shared/styling/app.colours";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.form-control.is-invalid {
+  background-image: linear-gradient(0deg, transparent 2px, rgba(63, 81, 181, 0) 0), linear-gradient(0deg, rgba(0, 0, 0, .26) 1px, transparent 0) !important;
+}
+
+.invalid-feedback {
+  font-size: 100% !important;
+}
+
+.invalid-text {
+  font-size: 100% !important;
+  color: #f44336;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}

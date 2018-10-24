@@ -1,0 +1,129 @@
+@import './app.colours';
+
+.basic-list {
+  .main-header {
+    margin-bottom: 25px;
+    .import-btn {
+      background-color: white;
+      font-size: 16px;
+      height: 50px;
+      color: $blue;
+      border: none;
+      width: 100%; // min-width: 200px;
+      cursor: pointer;
+    }
+  }
+  .card-header {
+    background-color: $red !important;
+    color: white;
+    font-size: 22px;
+    .header-icon-container {
+      position: relative;
+      top: 4px;
+      right: 4px;
+    }
+    .header-icon {
+      font-size: 1.3em;
+      outline: none;
+    }
+  }
+  .card-footer {
+    background-color: white;
+    border-top: white;
+  }
+  .card-body {
+    .subheading {
+      color: $red;
+      font-size: 16px;
+    }
+    .filter-row {
+      text-align: right;
+    }
+    .empty-text {
+      text-align: center;
+      font-size: 1.4em;
+      color: $black
+    }
+    .avator-photo {
+      width: 80px;
+      height: 80px;
+      background-size: cover;
+      border-radius: 45px;
+      background-repeat: no-repeat;
+    }
+    .card-button {
+      position: absolute;
+      height: 50px;
+      width: 150px;
+      color: white;
+      border: 0;
+      font-size: 16px;
+    }
+    .action-button {
+      height: 35px;
+      width: 100%;
+      color: white;
+      border: 0;
+      font-size: 16px;
+      margin: 5px;
+      cursor: pointer;
+      &.primary {
+        background: $yellow;
+      }
+      &.secondary {
+        background: $red;
+      }
+      &.tertiary {
+        background: $green;
+      }
+    }
+    .add-btn {
+      bottom: 0;
+      right: 0;
+      background-color: $yellow;
+      cursor: pointer;
+    }
+  }
+  .vertical-align {
+    margin: auto 0; //for vertical alignment
+  }
+  .horizontal-line {
+    width: 100%;
+    background-color: $light-grey;
+    height: 1.2px;
+    margin: 20px 0px;
+  }
+  .shadow {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    -moz-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  }
+}
+
+.shadow {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  -moz-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: $light-grey;
+  height: 1.2px;
+  margin: 20px 0px;
+}
+
+.primary-card-text-label {
+  font-weight: bold;
+}
+
+.primary-card-text-value {
+
+}
+
+.horizontal-line {
+  width: 100%;
+  background-color: $light-grey;
+  height: 1.2px;
+  margin: 20px 0px;
+}

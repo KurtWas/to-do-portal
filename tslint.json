@@ -31,7 +31,7 @@
       true,
       140
     ],
-    "member-access": false,
+    "member-access": true,
     "member-ordering": [
       true,
       {
@@ -126,6 +126,15 @@
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
-    "directive-class-suffix": true
+    "directive-class-suffix": true,
+    "prefer-readonly": true,
+    "promise-function-async": true,
+    "await-promise": true,
+    "variable-name": [true, "allow-leading-underscore"],
+    "class-name": true,
+    "array-type": [true, "generic"],
+    "file-name-casing": [true, "kebab-case"],
+    "interface-name": [true, "always-prefix"],
+    "only-arrow-functions": ["allow-declarations", "allow-named-functions"]
   }
 }

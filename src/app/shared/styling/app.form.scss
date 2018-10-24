@@ -1,0 +1,118 @@
+@import './app.colours';
+
+.basic-form {
+  margin-top: 15px;
+  .card-header {
+    background-color: $blue !important;
+    color: white;
+    font-size: 22px;
+  }
+  .card-footer {
+    background-color: white;
+    border-top: white;
+  }
+  .display-label {
+    color: $grey;
+    font-size: 1rem;
+  }
+  .display-value {
+    font-size: 1rem;
+  }
+  .display-linespace {
+    line-height: 4.5em;
+  }
+  .card-body {
+    form {
+      .subheading {
+        color: $red;
+        font-size: 16px;
+      }
+      .card-button {
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        color: white;
+        border: 0;
+        font-size: 16px;
+      }
+      .add-btn {
+        bottom: 0;
+        right: 0;
+        background-color: $yellow;
+        cursor: pointer;
+      }
+      .cancel-btn {
+        bottom: 0;
+        right: 180px;
+        cursor: pointer;
+        background-color: $grey;
+      }
+      .update-btn {
+        bottom: 0;
+        right: 0;
+        background-color: $yellow;
+      }
+      .change-password-btn {
+        background-color: $red;
+        bottom: 0;
+        right: 160px;
+        width: 200px !important;
+      }
+    }
+    .card-button {
+      position: absolute;
+      height: 50px;
+      width: 150px;
+      color: white;
+      border: 0;
+      font-size: 16px;
+    }
+    .add-btn {
+      bottom: 0;
+      right: 0;
+      background-color: $yellow;
+      cursor: pointer;
+    }
+    .add-btn-float-right {
+      float: right;
+      background-color: $yellow;
+      cursor: pointer;
+      height: 50px;
+      width: 150px;
+      color: white;
+      border: 0;
+      font-size: 16px;
+    }
+    .cancel-btn {
+      bottom: 0;
+      right: 180px;
+      cursor: pointer;
+      background-color: $grey;
+    }
+  }
+  .form-divider-label {
+    color: $red;
+    font-weight: bold;
+  }
+}
+
+.custom-tabs {
+  .nav-tabs .nav-link.active {
+    color: $red !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid $red;
+    // border-color: $light-grey $light-grey white !important;
+  }
+
+  .nav-tabs .nav-link {
+    // border: 1px solid transparent !important;
+    // border-top-left-radius: .25rem;
+    //  border-top-right-radius: .25rem;
+    padding-bottom: 5px !important;
+  }
+
+  .nav-tabs {
+    // border-bottom: 1px solid $light-grey !important;
+  }
+
+}

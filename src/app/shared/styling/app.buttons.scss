@@ -1,0 +1,38 @@
+
+.log-button {
+  height: 50px;
+  width: 100%;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  line-height: 3.2em;
+  padding: 0px 25px;
+  &.primary {
+    background: $yellow;
+  }
+  &.secondary {
+    background: $red;
+  }
+  &.tertiary {
+    background: $green;
+  }
+  &.shadow {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    -moz-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  }
+}
+
+
+.custom-file-upload {
+  font-size: 16px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: $blue;
+  line-height: 3.2em;
+  padding: 0px 25px;
+}
+
